@@ -1,0 +1,153 @@
+/* CalendarManager.css */
+
+/* Base styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* Soft gradient background */
+    background-image: url('https://wallpaperaccess.com/full/4012597.jpg');
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Calendar container */
+  .calendar-container {
+    max-width: 600px; /* Maximum width for the calendar */
+    margin: 30px auto; /* Centered with margin */
+    background-color: #ffffff; /* White background for the box */
+    padding: 20px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Headings */
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #4a4a4a; /* Slightly darker text for headings */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  h3 {
+    color: #4a4a4a; /* Consistent heading color */
+    margin-bottom: 10px; /* Space below subheading */
+  }
+  
+  /* Search and Filter */
+  .search-filter {
+    margin-bottom: 20px; /* Space below search input */
+  }
+  
+  .search-filter input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Meeting Form */
+  .meeting-form {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Vertical stacking */
+  }
+  
+  .meeting-form input,
+  .meeting-form select {
+    margin-bottom: 15px; /* Space below each input */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  .meeting-form .add-meeting-btn {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Inner padding */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  .meeting-form .add-meeting-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Meetings List */
+  .meetings-list {
+    margin-top: 20px; /* Space above the list */
+  }
+  
+  .meeting-item {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center vertically */
+    padding: 10px; /* Inner padding */
+    border-bottom: 1px solid #eee; /* Divider line */
+  }
+  
+  .meeting-item:last-child {
+    border-bottom: none; /* Remove border for last item */
+  }
+  
+  .meeting-info {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Vertical stacking */
+  }
+  
+  .meeting-title {
+    font-weight: bold; /* Bold title */
+    color: #007bff; /* Primary color */
+  }
+  
+  .meeting-type {
+    font-style: italic; /* Italic for type */
+  }
+  
+  .meeting-actions {
+    display: flex; /* Flexbox for buttons */
+  }
+  
+  .edit-meeting-btn,
+  .delete-meeting-btn {
+    background-color: #6c757d; /* Secondary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Inner padding */
+    cursor: pointer; /* Pointer cursor */
+    margin-left: 10px; /* Space between buttons */
+    font-size: 14px; /* Font size */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  .edit-meeting-btn:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+  }
+  
+  .delete-meeting-btn {
+    background-color: #dc3545; /* Danger color */
+  }
+  
+  .delete-meeting-btn:hover {
+    background-color: #c82333; /* Darker shade on hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .calendar-container {
+      width: 90%; /* Full width on smaller screens */
+    }
+  
+    .meeting-item {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align to the left */
+    }
+  
+    .meeting-actions {
+      width: 100%; /* Full width for actions */
+      justify-content: flex-end; /* Align actions to the right */
+    }
+  }
+  

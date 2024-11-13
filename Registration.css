@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpaperaccess.com/full/4012597.jpg');
+    background-color: #0e0909fa;
+  }
+  
+  .signup-container {
+    width: 99%;
+    max-width: 350px;
+    padding: 36px;
+    background-color: #e8e8e88e;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(33, 33, 33);
+  }
+  
+  .signup-container h1{
+    text-align:center;
+    margin-bottom: 40px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 93%;
+    padding: 9px;
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    padding: 9px;
+    background-color: #4ca7af;
+    color: rgb(244, 236, 236);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background-color: #45a09e;
+  }
+  
+  .login-link {
+    color: #000000;
+    margin-top: 50px;
+    text-align: center;
+  }
+  

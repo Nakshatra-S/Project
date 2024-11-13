@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    height: 100vh; /* Full height for vertical centering */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .scheduling-container {
+    width: 100%;
+    max-width: 800px; /* Maximum width for the container */
+    padding: 20px;
+    background-color: #f0eeeec3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1rem;
+  }
+  
+  /* Input Form Styling */
+  .scheduling-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="date"],
+  .input-group input[type="time"],
+  .input-group input[type="text"],
+  .input-group textarea,
+  .input-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input-group textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus,
+  .input-group select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  /* Success and Error Messages */
+  .error-message {
+    background-color: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .success-message {
+    background-color: #ddffdd;
+    color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Button Styling */
+  .schedule-btn {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .scheduling-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .schedule-btn {
+      font-size: 0.9rem;
+      padding: 10px 16px;
+    }
+  }
+  

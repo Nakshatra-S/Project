@@ -1,0 +1,125 @@
+.reminder-container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3ececbc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(243, 243, 243, 0.755);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reminder-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .reminder-form input,
+  .reminder-form select,
+  .reminder-form textarea {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  .add-reminder-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-reminder-btn:hover {
+    background-color: #218838;
+  }
+  
+  .reminders-list {
+    margin-top: 20px;
+  }
+  
+  .reminder-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reminder-info h4 {
+    margin: 0 0 5px;
+    color: #333;
+  }
+  
+  .reminder-info p {
+    margin: 2px 0;
+    color: #555;
+  }
+  
+  .delete-reminder-btn {
+    align-self: flex-end;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-reminder-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Search and Filter Section */
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter-section input {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  .filter-section select {
+    width: 28%;
+    padding: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .reminder-form input,
+    .reminder-form select,
+    .reminder-form textarea {
+      width: 100%;
+    }
+  
+    .filter-section {
+      flex-direction: column;
+    }
+  
+    .filter-section input,
+    .filter-section select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

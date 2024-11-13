@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    background-image: url('https://wallpaperaccess.com/full/4012597.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    margin-bottom: 50px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color:#1a1a1a;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #434242;
+  }
+  
+  .home-features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .feature {
+    width: 30%;
+    background-color: #e8efeed3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    margin-bottom: 10px;
+    color:#303030;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #6f6f6f;
+  }
+  
+  .home-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-btn {
+    padding: 10px 20px;
+    background-color: #4ab8b1ee;
+    color: rgb(251, 251, 251);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .home-btn:hover {
+    background-color: #458ba0;
+  }  
